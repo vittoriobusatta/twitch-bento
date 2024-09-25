@@ -1,0 +1,45 @@
+:root {
+  --color-1000: #18082b;
+  --color-900: #26064c;
+  --color-850: #310566;
+  --color-800: #430C8B;
+  --color-600: #8622ff;
+  --color-500: #bf94ff;
+  --color-50: #ded9ff;
+  --color-0: #f9f5ff;
+  --color-main: #9146ff;
+  --color-alt: #ff1d8e;
+  --color-stroke: rgba(134, 34, 255, 0.5);
+
+  --border-radius: 10px;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-0);
+  background-color: var(--color-1000);
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.bricolage-grotesque-heading {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
