@@ -14,6 +14,8 @@ export default {
         500: "var(--color-500)",
         600: "var(--color-600)",
         0: "var(--color-0)",
+        stroke: "var(--color-stroke)",
+        overlay: "var(--color-overlay)",
       },
       flex: {
         2: "2 2 0%",
@@ -25,6 +27,9 @@ export default {
       },
       maxWidth: {
         280: "240px",
+      },
+      borderWidth: {
+        1: "1px",
       },
     },
   },

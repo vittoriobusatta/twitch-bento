@@ -1,11 +1,5 @@
-<script>
-export default {
-    name: 'Navbar',
-}
-</script>
-
 <template>
-    <nav class="text-white px-8 py-4">
+    <nav class="text-white px-8 py-4 w-full">
         <div class="w-full grid grid-cols-5 gap-4">
             <div class="bg-900 w-full col-span-1 flex justify-between items-center p-4 rounded-10">
                 <img src="/twitch-logo.svg">
@@ -24,12 +18,8 @@ export default {
                     <img src="/icons/chat.svg">
                     <img src="/icons/bits.svg">
                 </div>
-                <img class="h-full w-12 rounded-10" src="/profile.jpg">
+                <img class="h-full w-14 aspect-square rounded-10" src="/profile.jpg">
             </div>
         </div>
     </nav>
 </template>
-
-
-
-<style scoped></style>

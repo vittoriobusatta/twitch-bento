@@ -1,3 +1,4 @@
+<!-- sidebar.vue -->
 <template>
     <aside class="bg-900 h-full col-span-1 p-4 flex-1 rounded-10">
         <div class="followed-channels">
